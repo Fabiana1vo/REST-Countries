@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+#city-form
+{
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 400px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#city-input
+{   
+    width: 80%;
+    height: 40px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-color: #865DFF;
+}
+
+#btn-search
+{
+    width: 15%;
+    height: 40px;
+    background-color: transparent;
+    border-color: #865DFF;   
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input-btn, .itens-form
+{
+    width: 100%;
+}
+
+.flags-img
+{
+
+    max-width: 80%;
+    border-radius: 5px;
+}
+
+.bandeira
+{
+    display: flex;
+    justify-content: center;
+}
+
+.ri-search-eye-line
+{
+    color: #865DFF;
+ }
+
+
+ .wrapper
+ {
+    padding: 10px;
+}
+
+.nome-capital
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.idioma-pop
+{
+ 
+    justify-content: space-around;
+    padding-left: 40px;
+}
+
+/* Erros */
+
+.error-notfound, .error-alarm
+{
+    color: red;
+    text-align: center;
+}
+
+ 

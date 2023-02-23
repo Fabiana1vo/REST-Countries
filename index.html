@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container"> 
+        <form id="city-form">
+            <div class="itens-form">
+            <div class="input-btn">                
+            <input type="text" id="city-input" name="city" placeholder="Enter the Name Of a Country">
+            <button type="submit" id="btn-search"><i class="ri-search-eye-line"></i></button>
+            <p class="error-alarm"></p>
+            <p class="error-notfound"></p>
+        </div>
+        <div class="conteudo-response">
+            <div id="list"></div>
+        </div>
+    </div>
+          </form>   
+    </div> 
+ 
+
+    <script src="main.js"></script>
+</body>
+</html>
